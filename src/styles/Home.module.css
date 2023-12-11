@@ -1,0 +1,157 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px
+}
+
+.nav p{
+  margin-top: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  color: #007bff; 
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.right h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.mainContent {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.mainContent a {
+  color: #007bff; 
+  text-decoration: none;
+}
+
+.mainContent a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+}
+
+.logoContainer{
+  display: flex;
+  flex-direction: column;
+  height: 840vh;
+}
+.logoContent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.logoList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.logoItem {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.logoLink {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.logoLink:hover {
+  background-color: #0056b3;
+}
+
+.idCont {
+  text-align: start;
+  padding: 40px;
+}
+
+.name {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #777;
+  line-height: 1.6;
+}
